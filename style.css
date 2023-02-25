@@ -40,10 +40,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .fancy-img{
     width: 30%;
-    border: 1px solid rebeccapurple;
 }
 .fancy-img img{
     width: 70%;
@@ -62,4 +62,16 @@
 }
 .check-mark p{
     display: inline;
+}
+/* plans css  */
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.plan-item{
+    text-align: center;
+}
+.plan-item p{
+    color: #837e7e;
 }
