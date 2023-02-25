@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* banner section */
 .container{
     background-image: url('/images/banner/banner1.png');
     background-position: center;
@@ -32,4 +34,32 @@
     color: #ffff;
     padding: 5px 10px;
     margin-top: 8px;
+}
+/* fancy section */
+.fancy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fancy-img{
+    width: 30%;
+    border: 1px solid rebeccapurple;
+}
+.fancy-img img{
+    width: 70%;
+    float: right;
+}
+.fancy-img{
+    width: 30%;
+}
+.fancy-dis{
+    margin-left: 50px;
+    width: 30%;
+}
+.fa-check{
+    
+    color: #04ea49;
+}
+.check-mark p{
+    display: inline;
 }
