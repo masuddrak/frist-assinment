@@ -76,12 +76,13 @@
 }
 
 /* plans css  */
-.paln-titel{
+.paln-titel {
     text-align: center;
     margin-top: 100px;
     margin-bottom: -50px;
     font-size: 40px;
 }
+
 .plans {
     display: flex;
     justify-content: space-evenly;
@@ -94,6 +95,41 @@
 
 .plan-item p {
     color: #837e7e;
+}
+
+/* my service */
+.service {
+    width: 80%;
+    margin: auto;
+}
+
+.service-titel {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 20%;
+    margin: auto;
+    height: 5px;
+    background-color: #013f14;
+    border: none;
+    border-radius: 10%;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.service-item {
+    width: 27%;
+    border: 1px solid #013f14;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* hand section */
@@ -136,11 +172,12 @@
 }
 
 /* Future */
-footer{
+footer {
     background-color: black;
     padding: 2% 0;
     margin-top: 100px;
 }
+
 .footer-container {
     width: 80%;
     display: flex;
@@ -148,29 +185,35 @@ footer{
     color: white;
     margin: auto;
 }
-.Future p{
+
+.Future p {
     margin: 15px 0;
 }
-.contact p{
-margin: 0;
-padding: 0;
+
+.contact p {
+    margin: 0;
+    padding: 0;
 }
-.social-icons{
+
+.social-icons {
     margin-top: 15px;
 }
+
 .social-icons img {
     background-color: #ffff;
     border-radius: 50%;
     margin-right: 15px;
 }
-.subscribe input{
+
+.subscribe input {
     border: 1px solid rgb(62, 62, 62);
     border-radius: 3%;
     padding: 8px 13px;
     margin: 10px 0;
     background-color: black;
 }
-.subscribe button{
+
+.subscribe button {
     border: none;
     padding: 5px 10px;
     color: red;
