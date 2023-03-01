@@ -134,7 +134,7 @@ hr {
 
 /* hand section */
 .watch {
-    background-image: url("/images/watch.png");
+    background-image: url("./images/watch.png");
     width: 80%;
     height: 8%;
     /* You must set a specified height */
